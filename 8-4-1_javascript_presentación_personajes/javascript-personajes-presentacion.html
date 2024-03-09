@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javascript-personajes-presentacion.css">
+    <title>Recomendaciones de Netflix</title>
+</head>
+<body>
+
+    <img id="logo-netflix" src="/img/netflix.png" alt="logo-netflix">
+
+    <div class="cookies" onload="cookies()">
+        <p><span>Esta página web usa cookies</span></p>
+        <p>Las cookies de este sitio web se usan para personalizar el contenido y los anuncios, ofrecer funciones de redes sociales y analizar el tráfico. Además, compartimos información sobre el uso que haga del sitio web con nuestros partners de redes sociales, publicidad y análisis web, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de sus servicios. </p>
+        <input type="button" value="Denegar" onclick="denegar()">
+    </div>
+    
+    <h1>¿No sabes que ver en Netflix?</h1>
+
+    <h2>¡Te recomiendo 3 series que te pueden gustar!</h2>
+
+    <div class="series">
+
+        <div class="alice"  onclick="alice()"></div>
+
+        <div class="alice-sinopsis">
+            <p><span>ALICE IN BORDERLAND (2020)</span></p>
+            <p>Un joven obsesionado con los videojuegos y dos amigos suyos se ven atrapados en una extraña versión de Tokio donde deberán competir en peligrosos juegos para sobrevivir. </p>
+            <input type="button" value="Salir" onclick="salir1()">
+        </div>
+
+        <div class="one-piece" onclick="onePiece()"></div>
+
+        <div class="one-piece-sinopsis">
+            <p><span>ONE PIECE (2023)</span></p>
+            <p>El joven pirata Monkey D. Luffy y su variopinta tripulación emprenden un viaje épico en busca de un tesoro. Adaptación con actores reales del popular manga. </p>
+            <input type="button" value="Salir" onclick="salir2()">
+        </div>
+
+        <div class="yu-yu-hakusho" onclick="hakusho()"></div>
+
+        <div class="yu-yu-hakusho-sinopsis">
+            <p><span>YU YU HAKUSHO (2023)</span></p>
+            <p>Después de perder la vida en un acto heroico, el rebelde Yusuke Urameshi es elegido Detective Espiritual para investigar casos relacionados con yokais peligrosos. </p>
+            <input type="button" value="Salir" onclick="salir3()">
+        </div>
+
+    </div>
+
+    <script src="javascript-personajes-presentacion.js"></script>
+</body>
+</html>

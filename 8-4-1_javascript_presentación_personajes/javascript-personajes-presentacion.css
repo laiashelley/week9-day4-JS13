@@ -1,0 +1,166 @@
+body{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#logo-netflix{
+    width: 500px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.cookies{
+    width:500px;
+    height:200px;
+    background: black;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    box-shadow: 0 32px 68px rgba(253, 253, 253, 0.3);
+    transition: all .5s ease;
+    text-align: justify;
+    display: none;
+}
+
+span{
+    font-weight: bold;
+    color: white;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+input{
+    padding: 10px;
+    background-color: rgb(209, 11, 11);
+    border-radius: 5px;
+    border: 1px solid rgb(209, 11, 11);
+    color: white;
+    font-weight: bold;
+}
+
+input:hover{
+    background-color: rgb(182, 10, 10);
+    cursor: pointer;
+}
+
+h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 50px;
+}
+
+.series{
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.alice{
+    background-image: url(/img/alice-in-borderland.jpg);
+    width: 333px;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid rgb(250, 249, 249);
+    box-shadow: 0 32px 68px rgba(253, 253, 253, 0.3);
+}
+
+.one-piece{
+    background-image: url(/img/one-piece.jpg);
+    width: 333px;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid rgb(250, 249, 249);
+    box-shadow: 0 32px 68px rgba(253, 253, 253, 0.3);
+}
+
+.yu-yu-hakusho{
+    background-image: url(/img/yu-yu-hakusho.jpg);
+    width: 333px;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid rgb(250, 249, 249);
+    box-shadow: 0 32px 68px rgba(253, 253, 253, 0.3);
+}
+
+.alice:hover, .one-piece:hover, .yu-yu-hakusho:hover{
+    scale: 120%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.alice-sinopsis{
+    width:500px;
+    height:200px;
+    background: black;
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 32px 68px rgba(253, 253, 253, 0.3);
+    text-align: justify;
+    display: none;
+}
+
+
+.one-piece-sinopsis{
+    width:500px;
+    height:200px;
+    background: black;
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 32px 68px rgba(253, 253, 253, 0.3);
+    text-align: justify;
+    display: none;
+}
+
+.yu-yu-hakusho-sinopsis{
+    width:500px;
+    height:200px;
+    background: black;
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 32px 68px rgba(253, 253, 253, 0.3);
+    text-align: justify;
+    display: none;
+}
